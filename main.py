@@ -5,7 +5,7 @@ answer = input()
 
 if answer.lower() == "r":
     print("Ok! Starting the Rigged Version...\n")
-    os.system("riggedScissorsRockPaper.py")
+    os.system(".python3 riggedScissorsRockPaper.py")
 else:
     print("Ok! Starting the Normal Version...\n")
-    os.system("ScissorsRockPaper.py")
+    os.system("python3 ScissorsRockPaper.py")
